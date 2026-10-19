@@ -1,0 +1,42 @@
+{
+  "id": "0da313d6-9a2e-44be-95a4-ab4c52e88939",
+  "name": "agendar_cita - confirmacion_si",
+  "auto": true,
+  "contexts": [
+    "esperando_confirmacion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "esperando_confirmacion",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "\u003cspeak\u003e\n  ¡Genial! Tu cita para tu #esperando_confirmacion.tipo_mascota ha quedado agendada con éxito para el \n  #esperando_confirmacion.date.original \n  a las #esperando_confirmacion.time.original. ¡Te esperamos en la clínica!\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

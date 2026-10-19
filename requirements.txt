@@ -1,0 +1,17 @@
+# OCR 
+pytesseract
+pillow
+pymupdf
+
+# Servidor Webhook
+fastapi
+uvicorn[standard]
+
+# Modelo de Lenguaje (Gemini) y Variables de Entorno
+google-genai
+python-dotenv
+
+# Voz
+google-cloud-dialogflow
+sounddevice
+numpy

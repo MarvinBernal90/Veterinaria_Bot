@@ -1,0 +1,35 @@
+{
+  "id": "166d2877-f081-4a95-ba0c-c384e93c0b15",
+  "name": "consulta_horarios",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Nuestro horario de atención es de lunes a viernes de 9:00 a 20:00, y los sábados de 10:00 a 14:00. ¿Te puedo ayudar con algo más?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

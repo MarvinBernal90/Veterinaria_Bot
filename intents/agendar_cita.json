@@ -1,0 +1,117 @@
+{
+  "id": "391dc96f-b282-4070-85b2-545c5b63374d",
+  "name": "agendar_cita",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "esperando_confirmacion",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "72ad897b-d768-4226-bd06-81fb3087ecae",
+          "name": "tipo_mascota",
+          "required": true,
+          "dataType": "@tipo_mascota",
+          "value": "$tipo_mascota",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Para qué mascota es la cita? (Atendemos perros, gatos y conejos)."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "624ec10e-e4ce-4b29-99b6-6f790261432f",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Qué día te gustaría traer a tu mascota?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9baee053-345a-4d53-b272-76e4b53819cc",
+          "name": "time",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿A qué hora prefieres la cita?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a737a251-6b42-43d8-aa91-f40bfc67360c",
+          "name": "telefono",
+          "required": true,
+          "dataType": "@telefono",
+          "value": "$telefono",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor, indícame un número de teléfono de 9 dígitos para contactarte"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "\u003cspeak\u003e\n  Perfecto. \u003cbreak time\u003d\"300ms\"/\u003e Resumiendo: quieres una cita para tu $tipo_mascota, $date.original, $time.original. \u003cbreak time\u003d\"300ms\"/\u003e Tu teléfono de contacto es \u003csay-as interpret-as\u003d\"telephone\"\u003e$telefono\u003c/say-as\u003e. \u003cbreak time\u003d\"400ms\"/\u003e ¿Es correcta esta información?\n\u003c/speak\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

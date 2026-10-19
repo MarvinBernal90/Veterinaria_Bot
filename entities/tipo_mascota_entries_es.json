@@ -1,0 +1,27 @@
+[
+  {
+    "value": "perro",
+    "synonyms": [
+      "perro",
+      "can",
+      "perrito",
+      "cachorro"
+    ]
+  },
+  {
+    "value": "gato",
+    "synonyms": [
+      "gato",
+      "minino",
+      "michi",
+      "felino"
+    ]
+  },
+  {
+    "value": "conejo",
+    "synonyms": [
+      "conejo",
+      "conejito"
+    ]
+  }
+]

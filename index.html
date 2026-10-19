@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Veterinaria Minos - Portal de Atención</title>
+  <style>
+    /* Paleta de colores y estilos generales */
+    :root {
+      --primary-color: #2b9eb3; /* Azul/verdoso clínico */
+      --text-color: #333333;
+      --bg-color: #f4f7f6;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+    /* Estilo del encabezado */
+    .header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+    }
+    .header p {
+      margin: 0.5rem 0 0 0;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    /* Contenedor principal */
+    .container {
+      max-width: 700px;
+      margin: 3rem auto;
+      padding: 2.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+    .container h2 {
+      margin-top: 0;
+      color: var(--primary-color);
+    }
+    p { 
+      line-height: 1.6; 
+      font-size: 1.05rem;
+    }
+    /* Caja de notas técnicas para la evaluación */
+    .info-box {
+      background-color: #fff8e1;
+      border-left: 5px solid #ffc107;
+      padding: 1.2rem;
+      margin-top: 2.5rem;
+      border-radius: 4px;
+    }
+    .info-box strong {
+      color: #b38600;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .info-box p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado visual -->
+  <header class="header">
+    <h1>🐾 Clínica Veterinaria Minos</h1>
+    <p>Cuidamos de tu mejor amigo con la tecnología más avanzada</p>
+  </header>
+
+  <!-- Cuerpo de la página -->
+  <div class="container">
+    <h2>Bienvenido a nuestro portal virtual</h2>
+    <p>Estamos aquí para ayudarte. Puedes utilizar nuestro <strong>Asistente Virtual</strong> (ubicado en la esquina inferior derecha) para agendar una cita para tu mascota, consultar nuestro horario de atención o para consultar rápidamente nuestros manuales de primeros auxilios y vacunación.</p>
+    
+    <div class="info-box">
+      <strong>⚠️ Nota de evaluación técnica:</strong>
+      <p>Este entorno web demuestra la integración del agente mediante <em>Dialogflow Messenger</em> (interfaz de texto). El requisito obligatorio de interacción por voz está implementado en el backend y debe probarse ejecutando el script local <code>cliente_voz.py</code> suministrado en el proyecto.</p>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       Dialogflow Messenger Snippet
+       =================================================================== -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="Veterinaria Minos"
+    agent-id="e8e6fa72-eb44-4195-90f7-6e5f86a1e815"
+    language-code="es"
+    chat-icon="https://cdn-icons-png.flaticon.com/512/1055/1055664.png"> <!-- Icono de huella para el chat -->
+  </df-messenger>
+
+</body>
+</html>

@@ -1,0 +1,644 @@
+[
+  {
+    "id": "130b8b53-a323-4172-b16f-a0b807add38d",
+    "data": [
+      {
+        "text": "Mañana",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "579bdd16-e296-4aaf-ba59-87d32fafaeb5",
+    "data": [
+      {
+        "text": "Te dejo mi número: ",
+        "userDefined": false
+      },
+      {
+        "text": "555666777",
+        "meta": "@telefono",
+        "alias": "telefono",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7ce1a446-6b92-4da3-ac27-8d45190db50a",
+    "data": [
+      {
+        "text": "Para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "conejo",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ee414edc-96f4-49cf-9087-595dda9ec564",
+    "data": [
+      {
+        "text": "El ",
+        "userDefined": false
+      },
+      {
+        "text": "martes",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "las 16:30",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "14b46b6c-5cfc-424e-ad18-2a99d399c5eb",
+    "data": [
+      {
+        "text": "Reserva de cita médica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "77afb6a0-3897-42fa-9615-666929be39c3",
+    "data": [
+      {
+        "text": "Necesito un veterinario urgente para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "gato",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fecb7965-81f6-4bca-982c-07febe26a11a",
+    "data": [
+      {
+        "text": "Turno para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "perro",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dd118f4d-ab18-4531-9f40-d21fef869fd9",
+    "data": [
+      {
+        "text": "¿A qué hora puedo llevar a mi ",
+        "userDefined": false
+      },
+      {
+        "text": "conejo",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mañana",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "25ea729e-1cc2-43a4-8926-d4ba9f5d39dc",
+    "data": [
+      {
+        "text": "¿Me pueden dar hora para el veterinario?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "43e2f098-cde6-4b35-a82a-f61619ffa04f",
+    "data": [
+      {
+        "text": "Hola, ¿tienen un huequito libre ",
+        "userDefined": false
+      },
+      {
+        "text": "hoy",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "por la tarde",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "perro",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "88d669cb-6516-4118-9d5d-3956d2521a7e",
+    "data": [
+      {
+        "text": "Necesito ver al veterinario mañana a ",
+        "userDefined": false
+      },
+      {
+        "text": "las 3 de la tarde",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": ", es para un ",
+        "userDefined": false
+      },
+      {
+        "text": "gato",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7f0bdc02-88d6-4328-b7be-e8f320c821ed",
+    "data": [
+      {
+        "text": "Reserva para un ",
+        "userDefined": false
+      },
+      {
+        "text": "conejo",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      },
+      {
+        "text": " el ",
+        "userDefined": false
+      },
+      {
+        "text": "15 de noviembre",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      },
+      {
+        "text": ", mi móvil es el ",
+        "userDefined": false
+      },
+      {
+        "text": "987654321",
+        "meta": "@telefono",
+        "alias": "telefono",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3d9306e8-008a-42cb-81f8-e603b346436d",
+    "data": [
+      {
+        "text": "Hola, quiero un turno para el ",
+        "userDefined": false
+      },
+      {
+        "text": "próximo lunes",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "las 10:00",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "perro",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8af78143-b295-46ad-b09f-9ac1b4756f95",
+    "data": [
+      {
+        "text": "Cita para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "gato",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      },
+      {
+        "text": " el ",
+        "userDefined": false
+      },
+      {
+        "text": "viernes",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " por la ",
+        "userDefined": false
+      },
+      {
+        "text": "mañana",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8fcf7713-15e1-4172-877e-e2e8fb969f48",
+    "data": [
+      {
+        "text": "676489789",
+        "meta": "@telefono",
+        "alias": "telefono",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "35ef3f55-2014-498d-ae56-690492cc8c2c",
+    "data": [
+      {
+        "text": "Quiero cita para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "perro",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mañana",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "las 5",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " mi teléfono es ",
+        "userDefined": false
+      },
+      {
+        "text": "699887766",
+        "meta": "@telefono",
+        "alias": "telefono",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5fc90c14-efa5-483c-8830-9c7e4d44335b",
+    "data": [
+      {
+        "text": "Mi teléfono es ",
+        "userDefined": false
+      },
+      {
+        "text": "611223344",
+        "meta": "@telefono",
+        "alias": "telefono",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "95b14425-34c3-4a45-ab73-9ab0c44eda81",
+    "data": [
+      {
+        "text": "Quiero una cita para mi mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7e899430-5d57-4fb4-a90f-25d128e1a217",
+    "data": [
+      {
+        "text": "Me gustaría reservar una cita",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "68d5610a-2122-4953-b314-86da6e084952",
+    "data": [
+      {
+        "text": "Necesito pedir cita",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "57e71eaa-5752-49a9-bb32-932cfc8b0368",
+    "data": [
+      {
+        "text": "Quiero agendar una cita",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f44dba68-2736-402f-9f47-7df0b5790f9e",
+    "data": [
+      {
+        "text": "Quiero pedir una cita",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a102394a-731e-4cf6-adcd-eeca237b38e2",
+    "data": [
+      {
+        "text": "¿Puedo programar una cita médica?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "53225774-2643-4e9b-b301-ca943e790d6b",
+    "data": [
+      {
+        "text": "Necesito que revisen a mi mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "75d8eb25-b7ed-49b2-8ed6-d19bf6de4ddc",
+    "data": [
+      {
+        "text": "¿Tienen espacio en la agenda?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c791459c-9db3-486a-85f2-4f1feafeb1eb",
+    "data": [
+      {
+        "text": "Agendar cita",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "822a7c65-c733-4101-9999-0cfa4453c6a4",
+    "data": [
+      {
+        "text": "Quiero llevar a mi ",
+        "userDefined": false
+      },
+      {
+        "text": "conejo",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      },
+      {
+        "text": " al veterinario",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "23731642-00c7-4d25-93f4-90e1a2bc9fb4",
+    "data": [
+      {
+        "text": "Dar cita para mi mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bb67a9f0-a681-43f5-bb33-95a13b6f0ca7",
+    "data": [
+      {
+        "text": "Necesito una consulta para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "gato",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "138ec651-894c-40fe-baa2-f9b76e59218f",
+    "data": [
+      {
+        "text": "Quiero agendar una cita para mi ",
+        "userDefined": false
+      },
+      {
+        "text": "perro",
+        "meta": "@tipo_mascota",
+        "alias": "tipo_mascota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

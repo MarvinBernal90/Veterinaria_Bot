@@ -1,0 +1,16 @@
+# Entornos virtuales (Evita subir los gigabytes de librerías)
+venv_win/
+venv/
+env/
+
+# Caché compilada de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables de entorno y contraseñas (Crucial para no filtrar tu API Key de Google)
+.env
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db

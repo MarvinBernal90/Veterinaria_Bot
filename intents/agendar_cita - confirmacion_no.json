@@ -1,0 +1,42 @@
+{
+  "id": "91274e9b-84fb-41b2-a121-b03adfe468f3",
+  "name": "agendar_cita - confirmacion_no",
+  "auto": true,
+  "contexts": [
+    "esperando_confirmacion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "esperando_confirmacion",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Entendido, no te preocupes. Vamos a cancelar esta solicitud. ¿Quieres que empecemos de nuevo para agendar la cita correctamente?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
